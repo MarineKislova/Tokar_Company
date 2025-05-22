@@ -37,10 +37,13 @@
   }
 }
 
-.residence{
-  img{
-    width: 100%;
-    max-width: 300px;
-    object-fit: cover;
-  }
+
+
+.residence__photo {
+  width: 100%;
+  max-width: 300px;
+  height:max-content;
+  max-height: 170px;
+  object-fit: cover;
+ padding-left: 10px;
 }

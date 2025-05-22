@@ -14,7 +14,7 @@ function App() {
             <h2>{building.name}</h2>
             <p>{building.cost}</p>
             {building.photos.map((photo) => (
-              <img key={photo.id} src={photo.src} alt={photo.alt} loading="lazy" />
+              <img className="residence__photo" key={photo.id} src={photo.src} alt={photo.alt} loading="lazy" />
             ))}
           </div>
         ))}
